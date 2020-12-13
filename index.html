@@ -127,7 +127,66 @@ document.onmouseup = mousehandler;
       </footer></center>
     </div>
 </div>
+<div id="id03" class="net-modal">
+    <div class="net-modal-content net-card-4 net-animate-top">
+      <header class="net-container net-theme-l1"> 
+<style>
+      .tulis p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
 
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+</style>
+<style>
+.button {
+  background-color: #0000ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+        <span onclick="document.getElementById('id03').style.display='none'"
+        class="net-button net-display-topright">×</span>
+        <h4><center>
+      <div class="w3-padding">
+<div class="tulis">
+  <p>SYSTEM</p>
+</div></h4>
+      </header>
+      <div class="net-padding">
+        <center><p>TERIM KASIH PDRM</p>
+        <p>SILA PASANG VOLUNTEER SMART PATROL</p>
+<center><p><a href="https://play.google.com/store/apps/details?id=my.gov.onegovappstore.rv2&hl=en&gl=US" class="button">PASANG SEKARANG</a></p></center>
+</center>
+      </div>
+      <footer class="net-container net-theme-l1">
+        <p>by Citizen</p>
+      </footer></center>
+    </div>
+</div>
 <div class="net-row-padding net-center net-margin-top">
 <div class="net-third">
   <div class="net-card net-container" style="min-height:auto">
@@ -138,13 +197,13 @@ document.onmouseup = mousehandler;
 
 <div class="net-third">
   <div class="net-card net-container" style="min-height:auto">
-  <p> <button class="net-btn net-xlarge net-dark-grey net-hover-light-grey" onclick="document.getElementById('id01').style.display='block'" style="font-weight:900;">SECURITY</button></p>
+  <p> <button class="net-btn net-xlarge net-dark-grey net-hover-light-grey" onclick="document.getElementById('id02').style.display='block'" style="font-weight:900;">SECURITY</button></p>
   </div>
 </div>
 
 <div class="net-third">
   <div class="net-card net-container" style="min-height:auto">
-  <p> <button class="net-btn net-xlarge net-dark-grey net-hover-light-grey" onlick="document.getElementByID('id02').style.display='block'" style="font-weight:900;">SYSTEM</button></a></p>
+  <p> <button class="net-btn net-xlarge net-dark-grey net-hover-light-grey" onclick="document.getElementById('id03').style.display='block'" style="font-weight:900;">SYSTEM</button></a></p>
   </div>
 </div>
 </div>
