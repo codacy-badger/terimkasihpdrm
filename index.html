@@ -83,6 +83,50 @@ document.onmouseup = mousehandler;
       </footer></center>
     </div>
 </div>
+<div id="id02" class="net-modal">
+    <div class="net-modal-content net-card-4 net-animate-top">
+      <header class="net-container net-theme-l1"> 
+<style>
+      .tulis p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+</style>
+        <span onclick="document.getElementById('id02').style.display='none'"
+        class="net-button net-display-topright">×</span>
+        <h4><center>
+      <div class="w3-padding">
+<div class="tulis">
+  <p>SECURITY</p>
+</div></h4>
+      </header>
+      <div class="net-padding">
+        <center><p>TERIM KASIH PDRM</p>
+        <p>TERIMA KASIH PDRM SYSTEM</p></center>
+      </div>
+      <footer class="net-container net-theme-l1">
+        <p>by Citizen</p>
+      </footer></center>
+    </div>
+</div>
 
 <div class="net-row-padding net-center net-margin-top">
 <div class="net-third">
@@ -100,7 +144,7 @@ document.onmouseup = mousehandler;
 
 <div class="net-third">
   <div class="net-card net-container" style="min-height:auto">
-  <p> <button class="net-btn net-xlarge net-dark-grey net-hover-light-grey" href="http://MCBpay.MCB.gov.my/".style.display='block'" style="font-weight:900;">SYSTEM</button></a></p>
+  <p> <button class="net-btn net-xlarge net-dark-grey net-hover-light-grey" onlick="document.getElementByID('id02').style.display='block'" style="font-weight:900;">SYSTEM</button></a></p>
   </div>
 </div>
 </div>
@@ -125,7 +169,7 @@ document.onmouseup = mousehandler;
                     overflow: hidden 
             }
             .doorText { 
-                    background-color: rgba(253,217,33,0.50); 
+                    background-color: rgba(0, 0, 255,0.50); 
                     color: #333; 
                     font-family: Verdana, sans-serif; 
                     font-size: 24px; 
@@ -149,14 +193,14 @@ document.onmouseup = mousehandler;
                     bottom: 0; 
                     width: 50%; 
                     transition: 3s ease-in-out; 
-                    box-shadow: inset 0 0 0 1px rgba(255,153,51,0.40); 
-                    background: rgba(255,153,51.35); 
-                    background: -moz-linear-gradient(-45deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
-                    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,153,51.35)), color-stop(50%, rgba(255,153,51,0.35)), color-stop(51%, rgba(209,209,209,0.35)), color-stop(100%, rgba(254,254,254,0.35))); 
-                    background: -webkit-linear-gradient(-45deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
-                    background: -o-linear-gradient(-45deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
-                    background: -ms-linear-gradient(-45deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
-                    background: linear-gradient(135deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9933', endColorstr='#fefefe', GradientType=1 );
+                    box-shadow: inset 0 0 0 1px rgba(0, 0, 255,0.40); 
+                    background: rgba(0, 0, 255.35); 
+                    background: -moz-linear-gradient(-45deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
+                    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0, 0, 255.35)), color-stop(50%, rgba(0, 0, 255,0.35)), color-stop(51%, rgba(209,209,209,0.35)), color-stop(100%, rgba(254,254,254,0.35))); 
+                    background: -webkit-linear-gradient(-45deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
+                    background: -o-linear-gradient(-45deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
+                    background: -ms-linear-gradient(-45deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
+                    background: linear-gradient(135deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9933', endColorstr='#fefefe', GradientType=1 );
             }
             .doorHoverRight { 
                     position: absolute; 
@@ -166,13 +210,13 @@ document.onmouseup = mousehandler;
                     width: 50%; 
                     transition: 3s ease-in-out; 
                     box-shadow: inset 0 0 0 1px rgba(0,0,0,0.40); 
-                    background: rgba(255,153,51.35); 
-                    background: -moz-linear-gradient(-45deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
-                    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,153,51.35)), color-stop(50%, rgba(255,153,51,0.35)), color-stop(51%, rgba(209,209,209,0.35)), color-stop(100%, rgba(254,254,254,0.35))); 
-                    background: -webkit-linear-gradient(-45deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
-                    background: -o-linear-gradient(-45deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
-                    background: -ms-linear-gradient(-45deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
-                    background: linear-gradient(135deg, rgba(255,153,51.35) 0%, rgba(255,153,51,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9933', endColorstr='#fefefe', GradientType=1 );
+                    background: rgba(0, 0, 255.35); 
+                    background: -moz-linear-gradient(-45deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
+                    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0, 0, 255.35)), color-stop(50%, rgba(0, 0, 255,0.35)), color-stop(51%, rgba(209,209,209,0.35)), color-stop(100%, rgba(254,254,254,0.35))); 
+                    background: -webkit-linear-gradient(-45deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
+                    background: -o-linear-gradient(-45deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
+                    background: -ms-linear-gradient(-45deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); 
+                    background: linear-gradient(135deg, rgba(0, 0, 255.35) 0%, rgba(0, 0, 255,0.35) 50%, rgba(209,209,209,0.35) 51%, rgba(254,254,254,0.35) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9933', endColorstr='#fefefe', GradientType=1 );
             }
             #banner:hover .doorHoverLeft { 
                     left: -50%; 
