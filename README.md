@@ -1,0 +1,2 @@
+# terimkasihpdrm
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/30794452fbc746b8addd08d99d7ba6a5)](https://app.codacy.com/gh/alexandereric995/terimkasihpdrm?utm_source=github.com&utm_medium=referral&utm_content=alexandereric995/terimkasihpdrm&utm_campaign=Badge_Grade_Settings)
